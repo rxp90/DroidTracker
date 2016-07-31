@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nivelDetalleArray">
+        <item>Muy alto</item>
+        <item>Alto</item>
+        <item>Medio</item>
+        <item>Bajo</item>
+        <item>Muy bajo</item>
+    </string-array>
+    <string-array name="puntosNoVisiblesArray">
+        <item>Dibujar todos</item>
+        <item>Usar margen de seguridad</item>
+        <item>Sólo visibles</item>
+    </string-array>
+<string-array name="opcionesRecorrido">
+        <item>Ver mapa</item>
+        <item>Ver estadísticas</item>
+        <item>Cambiar nombre</item>
+        <item>Exportar a KML</item>
+        <item>Borrar</item>
+    </string-array>
+</resources>

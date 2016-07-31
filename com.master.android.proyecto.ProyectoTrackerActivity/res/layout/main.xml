@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LayoutPrincipal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3B5998"
+    android:clickable="true"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7" >
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descripcionLogo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        android:clickable="true" >
+
+        <RelativeLayout
+            android:id="@+id/layoutStartTracking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/startTracking"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imgStartTracking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="15dp"
+                android:layout_marginLeft="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/descripcionImgSatelite"
+                android:maxHeight="48px"
+                android:maxWidth="48px"
+                android:src="@drawable/satellite_dish" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutStopTracking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:id="@+id/imgStopTracking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="15dp"
+                android:layout_marginLeft="20dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/descripcionImgStop"
+                android:maxHeight="48px"
+                android:maxWidth="48px"
+                android:src="@drawable/stop" />
+
+            <TextView
+                android:id="@+id/txtStopTracking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imgStopTracking"
+                android:text="@string/stopTracking"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:typeface="normal" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutViewMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/imgViewMaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="15dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descripcionImgVerRecorridos"
+            android:maxHeight="48px"
+            android:maxWidth="48px"
+            android:src="@drawable/world" />
+
+        <TextView
+            android:id="@+id/txtViewMaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/verRecorridos"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutGetFromURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/imgDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="15dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descripcionImgDescargar"
+            android:maxHeight="48px"
+            android:maxWidth="48px"
+            android:src="@drawable/download" />
+
+        <TextView
+            android:id="@+id/txtDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/descargar"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+</LinearLayout>

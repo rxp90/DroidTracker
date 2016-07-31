@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Route Tracking</string>
+    <string name="detalleTrazado">Nivel de detalle</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="margenes">Márgenes</string>
+    <string name="nuevoTrayecto">Nuevo trayecto</string>
+    <string name="nombre">Nombre</string>
+    <string name="trackingActivo">Servicio de tracking activo</string>
+    <string name="startTracking">Iniciar tracking</string>
+    <string name="stopTracking">Detener tracking</string>
+    <string name="verRecorridos">Ver recorridos</string>
+    <string name="tiempoTotal">Tiempo total</string>
+    <string name="velocidadMedia">Velocidad media</string>
+    <string name="distanciaTotal">Distancia total</string>
+    <string name="descargar">Descargar KML</string>
+    <string name="url">URL</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cambiarVista">Cambiar vista</string>
+    <string name="descripcionLogo">Logo de la aplicación</string>
+    <string name="descripcionImgSatelite">Satélite</string>
+    <string name="descripcionImgStop">Imagen de stop</string>
+    <string name="descripcionImgDescargar">Círculo con flecha hacia abajo</string>
+    <string name="descripcionImgVerRecorridos">Bola del mundo</string>
+    <string name="perfil">Perfil</string>
+    <string name="altura">Altura</string>
+    <string name="borrarTodos">Borrar todos</string>
+    <string name="borrarTodo">Borrar todo</string>
+    <string name="confirmacionBorrarTodo">¿Está seguro de que desea borrar todo?</string>
+    <string name="datosBorrados">Datos borrados</string>
+    <string name="borrarRecorrido">¿Borrar recorrido?</string>
+    <string name="recorridoBorrado">Recorrido borrado</string>
+        <string name="errorCambiarNombre">Error al cambiar el nombre</string>
+        <string name="nombreCambiado">Nombre cambiado correctamente</string>
+            <string name="introduzcaNombre">Introduzca un nombre</string>
+        
+</resources>
